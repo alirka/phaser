@@ -2,12 +2,18 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Phaser</title>
-    <link rel="stylesheet" href="../css/main.css">
-
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
-Bonjour
 </body>
-<script src="../js_client/main.js"></script>
+<!--L'ordre est très important-->
+    <script src="phaser.js"></script>
+    <script src="objets/player.js"></script>
+    <script src="objets/world.js"></script>
+    <script src="main.js"></script>
+    <script src="initGame.js"></script>
 </html>
