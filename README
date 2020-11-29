@@ -1,0 +1,8 @@
+Pour faire fonctionner mon jeu :
+
+1. Cloner mon projet
+2. Faire un "npm install" dans la console
+3. Faire un "npm start" dans la console pour démarrer le serveur
+4. Sur un navigateur aller sur "localhost:8080" pour jouer
+
+Amusez-vous bien !
